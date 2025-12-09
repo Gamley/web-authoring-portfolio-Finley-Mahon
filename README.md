@@ -50,10 +50,18 @@ This Website compiles all the Antihuman Lore into bref paragraphs for easy under
 ├── VideoLore.html              # Video lore 
 ├── CharLore.html               # Character lore
 ├── styles.css                  # Stylesheet for the Lore website
+├── README.md                   # README :) 
+├── Planning.md                 # Plan for the website
 └── Images/                     # Images files 
     ├── Images :0 
 
 ```
+
+## Technologies used
+
+- HTML
+- CSS
+
 ## How to view
 
 ### Local:
@@ -74,13 +82,15 @@ This Website compiles all the Antihuman Lore into bref paragraphs for easy under
 
 ## sources
 
-### Images
+### Images:
+
 ![LovecutV's permission](Images/LovecutV_permission.png)
 
-### Code snippets
+### Code snippets:
 
 **Form code:** https://github.com/deweydex/HTML-CSS-SQL-JS
 
 **Table code:** https://www.w3schools.com/html/html_tables.asp
+
 
 
