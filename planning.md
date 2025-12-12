@@ -56,12 +56,30 @@ CSS is a style langguage, used for specifying the style of a website or document
 
 
 ## **HTML tags**
+**&lt;Head&gt;:**
+Surround header material such as titles, CSS info, and company slogans.
 
+**&lt;IMG&gt;:**
+Used to display an image.
 
+**&lt;P&gt;:**
+  Used for paragraphs.
+
+**&lt;H1&gt;,&lt;H2&gt;,...:**
+  A heading line that is used to mark the sections of a document.
 
 ## **CSS tags**
+**Color:**
+Used to give text colour.
 
+**Background-Image:**
+Used to set the backround to an image.
 
+**.Form:**
+Targets everything with the class "Form"
+
+**#Content:**
+Targets everything with the Id "content"
 
 ## **Sources**
 
@@ -70,5 +88,6 @@ History of Html: https://en.wikipedia.org/wiki/HTML#History
 History of CSS: https://en.wikipedia.org/wiki/CSS
 
 History of HTML and CSS: https://www3.cs.stonybrook.edu/~pfodor/courses/CSE316/L03-HTML_CSS.pdf
+
 
 
