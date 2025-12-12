@@ -92,6 +92,9 @@ This Website compiles all the Antihuman Lore into bref paragraphs for easy under
 
 **Table code:** https://www.w3schools.com/html/html_tables.asp
 
+Github: https://github.com/Gamley/Antihuman-Lore-Website/tree/main
+
+
 
 
 
