@@ -13,7 +13,7 @@ This Website compiles all the Antihuman Lore into bref paragraphs for easy under
 - Table of The Roots
 - Sources used
 
-### Vido Lore: 
+### Video Lore: 
 
 A bref paragraph on the all the Antihuman songs
 
@@ -88,6 +88,7 @@ History of Html: https://en.wikipedia.org/wiki/HTML#History
 History of CSS: https://en.wikipedia.org/wiki/CSS
 
 History of HTML and CSS: https://www3.cs.stonybrook.edu/~pfodor/courses/CSE316/L03-HTML_CSS.pdf
+
 
 
 
