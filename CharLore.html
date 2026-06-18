@@ -16,29 +16,60 @@
         <p> This is Fan-made website </p> 
     </header>
      
-    <!-- Nav bar --> 
-     <nav>
-       <ul class="nav-main">
-            <li><a href="index.html" class="Nav-link">Homepage</a></li>
-            <li><a href="VideoLore.html" class="Nav-link">Music Videos</a></li>
-            <li class="Dropdown">
-                <a href="#" class="Nav-link">Character Lore</a>
-                <ul class="Dropdown-content">
-                    <li><a href="CharLore.html" >Page 1</a></li>
-                    <li><a href="CharLore2.html" >Page 2</a></li> 
-                </ul>
-            </li>
+   <!-- Nav bar --> 
+     <nav> <!-- Code = https://github.com/deweydex/HTML-CSS-SQL-JS--> 
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="VideoLore.html">Music Videos</a></li>
+            <li><a href="CharLore.html">Character Lore</a></li>
             <li><a href="Other.html" class="Nav-link">Miscellaneous</a></li>
         </ul>
     </nav>
 
-    <main id="Homepage">  
+    <main id="Homepage">
+        
+        <div id="title">  
+            <h2><u>Character Lore</u></h2>
+            <div id="mini-Nav">
+                <ul class="nav-main">
+                    <li><a href="CharLore.html" class="Nav-link">&larr; Page 1</a></li>
+                    <li><a href="CharLore2.html" class="Nav-link">Page 2 &rarr;</a></li>
+                </ul class="nav-main">
+            </div>
+        </div>
+
+        
+
         <section id="Content"> 
             
             <div class="grid">
                 <div class="card">
-                     <h2>Moka</h2> 
-                     <img src="Images/Y2K.png">
+                     <h2>Moka</h2>
+
+                     <div class="slideshow-container">
+                        <div class="SlidesMoka">
+                            <div class="numbertext">1 / 4</div> <img src="Images/Y2K.png" style="width:100%">
+                        </div>
+                        <div class="SlidesMoka">
+                            <div class="numbertext">2 / 4</div> <img src="Images/ANTIVILLAIN.png" style="width:100%">
+                        </div>
+                        <div class="SlidesMoka">
+                            <div class="numbertext">3 / 4</div> <img src="Images/HYPNOFREAK.png" style="width:100%">
+                        </div>
+                        <div class="SlidesMoka">
+                            <div class="numbertext">4 / 4</div> <img src="Images/Moka_Plushie.avif" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1, 0)">❮</a>
+                        <a class="next" onclick="plusSlides(1, 0)">❯</a>
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+
                         <P class="text"> 
                             <b>Moka</b> is a fluffy dragon alien with teal swirls on their cheek.
                             They can also have visible scars on their chest. They are not from 
@@ -49,9 +80,34 @@
                     <p><b>First Appearance: </b>ANTIVILLAIN</p>
                 </div>
 
+                <!--Gran's card-->
                 <div class="card"> 
-                     <h2>Gran</h2>
-                     <img src="Images/TALK_CONCEPT.png"> 
+                    <h2>Gran</h2>
+
+                    <div class="slideshow-container">
+                        <div class="SlidesGran">
+                            <div class="numbertext">1 / 4</div> <img src="Images/TALK_CONCEPT.png" style="width:100%">
+                        </div>
+                        <div class="SlidesGran">
+                            <div class="numbertext">2 / 4</div> <img src="Images/GranAU.png" style="width:100%">
+                        </div>
+                        <div class="SlidesGran">
+                            <div class="numbertext">3 / 4</div> <img src="Images/GranDead.png" style="width:100%">
+                        </div>
+                        <div class="SlidesGran">
+                            <div class="numbertext">4 / 4</div> <img src="Images/Gran_plushie.avif" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1, 1)">❮</a>
+                        <a class="next" onclick="plusSlides(1, 1)">❯</a>
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div> 
+                
                         <P class="text">
                             <b>Gran</b> is a fluffy dragon alien; almost identical to <b>Moka</b> with the exception 
                             of lacking scars on their chest and having greener eyes. They are Moka’s parallel in the 
@@ -72,7 +128,7 @@
                             which She uses like big and flexible hands. LovecutV has 
                             described Florret's sanity as a 1 out of 10, V has also 
                             stated that Florret had the "easiest" transformation out of 
-                            the Gossip Girls.  
+                            the <b>Gossip Girls</b>.  
                             <b>"Florret's the type to be a nudist frfr" - LoveCutV</b>
                         </P>
                         <p><b>First Appearance: </b>The Ringmaster</p>
@@ -89,7 +145,7 @@
                         her life. Her alien form is that of a flower. Morale
                         possesses no mouth but still has a human like skull.
                         Her tail is a balled up fire. Morale is part of the 
-                        Gossip Girls, as seen at the end of Lab Rat.
+                        <b>Gossip Girls</b>, as seen at the end of Lab Rat.
                     </P>
                     <p><b>First Appearance:</b> Lab Rat</p>
                 </div>
@@ -117,7 +173,7 @@
                      <P class="text">
                        <b>Ki</b> is a bat alien with a heart shaped cutout on her ear and has orange and yellow eyes (Heterochromia). 
                        She is roommates with <b>Moka</b> and was on their ship when it crashed in Golden City, disappearing afterwards. 
-                       She is currently with the Gossip Girls. Ki is the Cosmic Critters universe parallel to Morale 
+                       She is currently with the <b>Gossip Girls</b>. Ki is the Cosmic Critters universe parallel to Morale 
                     </P>
                     <p><b>First Appearance: </b>N/A</b></p>
                 </div>
@@ -164,56 +220,38 @@
                         choosing to float on a column of pure cloud. Nothing is known of her mother as of yet. She has the ability 
                         to grow in size, as seen in a sketch from LovecutV, but chooses to remain small and condensed for 
                         personal reasons. Her larger size is reminiscent of a thunder cloud, with her pink hair turning a marbled 
-                        grey with crackles of electricity. She is an employee of <b>ANTIHUMAN INC</b> and part of the Gossip Girls, 
-                        as seen at the end of Lab Rat.
+                        grey with crackles of electricity. She is an employee of <b>ANTIHUMAN INC</b> and part of the <b>Gossip Girls</b>, 
+                        as seen at the end of <b>Lab Rat</b>.
                     </P>
                     <p><b>First Appearance: </b>Lab Rat</p>
                 </div>
 
                 <div class="card">
-                     <h2>Ziggy</h2>
-                     <img src="Images/Ivycomb_Logo.png">
-                     <P class="text"> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                        irure dolor in reprehenderit in voluptate velit esse cillum 
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum. 
+                    <h2>Ziggy</h2>
+                    <img src="Images/Ivycomb_Logo.png">
+                    <P class="text"> 
+                        <b>Ziggy</b> is an employee of <b>ANTIHUMAN INC</b> and part of the <b>Gossip Girls</b>, 
+                        as seen at the end of <b>Lab Rat</b>.
                     </P>
                     <p><b>First Appearance:</b>Lab Rat</p>
                 </div>
 
                 <div class="card">
-                     <h2>Versatile</h2>
-                     <img src="Images/Ivycomb_Logo.png">
-                     <P class="text"> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                        irure dolor in reprehenderit in voluptate velit esse cillum 
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum. 
+                    <h2>Versatile</h2>
+                    <img src="Images/Ivycomb_Logo.png">
+                    <P class="text"> 
+                        <b>Versatile</b> is an employee of <b>ANTIHUMAN INC</b> and part of the <b>Gossip Girls</b>, 
+                        as seen at the end of <b>Lab Rat</b> 
                     </P>
                     <p><b>First Appearance: </b>Lab Rat</p>
                 </div>
 
                 <div class="card">
-                     <h2>Plushlie</h2>
-                     <img src="Images/EarlyPlushlie.jpg">
-                     <P class="text"> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                        irure dolor in reprehenderit in voluptate velit esse cillum 
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
+                    <h2>Plushlie</h2>
+                    <img src="Images/EarlyPlushlie.jpg">
+                    <P class="text"> 
+                        <b>Plushlie</b> is an employee of <b>ANTIHUMAN INC</b> and part of the <b>Gossip Girls</b>, 
+                        as seen at the end of <b>Lab Rat</b>
                     </P>
                     <p><b>First Appearance: </b>Lab Rat</p>
                 </div>
@@ -271,5 +309,6 @@
         <p> Art by <a class="link" href="https://bsky.app/profile/lovecutv.bsky.social" target="_blank" rel="noopener noreferrer">LovecutV</a> </p> 
     </footer>
 
+<script src="myScript.js"></script>
 
 </body>

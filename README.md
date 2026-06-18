@@ -94,6 +94,6 @@ This Website compiles all the Antihuman Lore into bref paragraphs for easy under
 
  ## Last Updated
  
- ### 23/02/2026
+ ### 18/06/2026
 
 
